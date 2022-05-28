@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://www.pngmagic.com/product_images/website-background-image-size-psd-vector-photo.jpg);
+    text-align: center;
+    background-attachment: fixed;
+}
+
+#title{
+    font-size: 3.5rem;
+    color: #fff;
+    margin: 3rem auto 0.7rem auto;
+    max-width: 50rem;
+    font-family: 'Macondo', cursive;
+}
+
+#description{
+    font-size: 1.5rem;
+    color: #ccc;
+    font-style: italic;
+}
+
+#survey-form{
+    background-color: rgba(0, 0, 0, 0.281);
+    max-width: 50rem;
+    margin: 2rem auto;
+    padding: 4rem;
+    border-radius: 10px;
+}
+
+label{
+    color: #fff;
+    font-family: 'Macondo', cursive;
+    text-align: left;
+    display: block;
+    font-size: 1.5rem;
+}
+
+input{
+    width: 42rem;
+    height: 2.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    padding: 0.7rem;
+    font-size: 1rem;
+    border-radius: 8px;
+}
+
+select{
+    width: 42rem;
+    height: 2.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    padding: 0.7rem;
+    font-size: 1rem;
+    border-radius: 8px;
+}
+
+.radio-btn-label{
+    margin-top: 0.5rem;
+    margin-bottom: 0.7rem;
+}
+
+.radio-btn{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 1.5rem;
+    height: 1.2rem;
+}
+
+.radio-choice :last-child{
+    margin-bottom: 1.1rem;
+}
+
+.checkbox-choice :last-child{
+    margin-bottom: 1.1rem;
+}
+
+#comment-box{
+    display: block;
+    margin-top: 1rem;
+    border-radius: 8px;
+    font-size: 1.3rem;
+    padding: 1rem;
+    width: 42rem;
+}
+
+#submit{
+    height: 4rem;
+    width: 10rem;
+    font-size: 2rem;
+    margin-top: 4rem;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(61, 120, 179);
+    color: #fff;
+}
+
+#submit:hover{
+    background-color: rgb(127, 136, 255);
+}
+
+/* Extra codes for passing test
+
+#name-label{
+    color: #fff;
+    font-family: 'Macondo', cursive;
+    text-align: left;
+    display: block;
+    font-size: 1.5rem;
+}
+
+#email-label{
+    color: #fff;
+    font-family: 'Macondo', cursive;
+    text-align: left;
+    display: block;
+    font-size: 1.5rem;
+}
+
+#number-label{
+    color: #fff;
+    font-family: 'Macondo', cursive;
+    text-align: left;
+    display: block;
+    font-size: 1.5rem;
+} */
+
+/* Extra codes for making mobile responsive */
+
+@media screen and (max-width: 600px) {
+        #title{
+            font-size: 2rem;
+        }
+
+        #description{
+            font-size: 1rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+
+        #survey-form{
+            width: 20rem;
+            padding: 1.5rem;
+        }
+
+        input, select, #comment-box{
+            width: 17rem;
+        }
+
+        label{
+            font-size: 1.2rem;
+        }
+
+        #submit{
+            margin-top: 2.8rem;
+            margin-bottom: 1.5rem;
+            height: 3rem;
+            font-size: 1.5rem;
+        }
+
+        #comment-box{
+            font-size: 1rem;
+        }
+        
+
+}
